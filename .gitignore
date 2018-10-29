@@ -1,0 +1,11 @@
+.idea
+pkg
+out
+Gemfile.lock
+coverage
+challenges/*.txt
+record/localstore
+config/credentials.config
+coverage
+coverage.tdl
+.DS_Store
