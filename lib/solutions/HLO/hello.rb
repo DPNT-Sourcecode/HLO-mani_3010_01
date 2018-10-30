@@ -2,7 +2,10 @@
 class Hello
 
   def hello(friend_name)
-    return "Hello, World!"
+    if friend_name == ''
+       return 'Hello, World!'
+    end
+    return 'Hello, ${friend_name}!'
   end
 
 end
